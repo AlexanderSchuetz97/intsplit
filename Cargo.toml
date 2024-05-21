@@ -2,6 +2,16 @@
 name = "intsplit"
 version = "0.1.0"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Alexander Schütz <aschuetz@protonmail.com>"]
+keywords = ["int", "split", "array", "integer"]
+categories = ["data-structures"]
+description = "Rust library for splitting numeric types into their binary component arrays"
+readme = "README.md"
+repository = "https://github.com/AlexanderSchuetz97/intsplit"
+
+[lib]
+crate-type = ["rlib"]
 
 [dev-dependencies]
 getrandom = "0.2.15"

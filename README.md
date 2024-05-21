@@ -1,5 +1,5 @@
 # intsplit
-Rust library for splitting rust numeric types into their binary component arrays.
+Rust library for splitting numeric types into their binary component arrays.
 
 ### Example
 ```rust
