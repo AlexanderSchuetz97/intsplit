@@ -7,7 +7,7 @@ use intsplit::*;
 
 #[test]
 fn example() {
-    let number = 0x0A0B0C0Du32;
+    let number : u32 = 0x0A0B0C0Du32;
     let u16_components: [u16; 2] = number.as_u16_array();
     assert_eq!([0x0C0Du16, 0x0A0Bu16], u16_components);
 }
